@@ -1,6 +1,6 @@
 // Vous devez assigner la bonne string à la variable password ci dessous
 // Et obtenir le message 'OK' en éxecutant le programme
-let password = ''
+let password = 'ab'
 
 const crackme10 = (password) => {
   if (
