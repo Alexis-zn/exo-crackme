@@ -4,6 +4,7 @@
 let password = '@11!1111111111'
 
 const crackme3 = (password) => {
+  
   if (password.length === 14 && password[0] === '@' && password[3] === '!') {
     console.log('GOOD')
   } else {
@@ -11,4 +12,4 @@ const crackme3 = (password) => {
   }
 }
 
-crackme3(password)
+crackme3(password) 
